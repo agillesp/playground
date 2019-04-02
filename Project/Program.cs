@@ -32,4 +32,4 @@ namespace Project
 //   drone/drone:1
 
 // Agent
-// docker run --volume=//./pipe/docker_engine://./pipe/docker_engine --env=DRONE_LOGS_DEBUG=true --env=DRONE_RPC_HOST=drone.machost --env=DRONE_RPC_PROTO=http --env=DRONE_RPC_SECRET=257984415c3a09e491ae76f6d837940c --env=DRONE_RUNNER_CAPACITY=2 --restart=always --detach=true --name=agent drone/agent:windows-1803-amd64
+// docker run --volume=//./pipe/docker_engine://./pipe/docker_engine --env=DRONE_LOGS_DEBUG=true --env=DRONE_RPC_SERVER=http://drone.machost --env=DRONE_RPC_SECRET=257984415c3a09e491ae76f6d837940c --env=DRONE_RUNNER_CAPACITY=2 --restart=always --detach=true --name=agent drone/agent:windows-1803-amd64
