@@ -1,6 +1,11 @@
 kind: pipeline
 name: build
 
+platform:
+  os: windows
+  arch: amd64
+  version: 1803
+
 steps:
 - name: build
   image: microsoft/windowsservercore
