@@ -11,4 +11,4 @@ steps:
   image: buildtools
   pull: never
   commands:
-  - dotnet build ./Project.csproj
+  - dotnet build Project/Project.csproj
