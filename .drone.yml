@@ -8,6 +8,6 @@ platform:
 
 steps:
 - name: build
-  image: microsoft/windowsservercore
+  image: lukaslansky/visualstudio-netwebworkload
   commands:
-  - build
+  - dotnet build Project.csproj
