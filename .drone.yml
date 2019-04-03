@@ -9,6 +9,6 @@ platform:
 steps:
 - name: build
   image: buildtools
-  pull: disable
+  pull: never
   commands:
   - dotnet build Project.csproj
