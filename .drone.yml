@@ -8,7 +8,7 @@ platform:
 
 steps:
 - name: build
-  image: buildtools:latest
+  image: buildtools
   pull: disable
   commands:
   - dotnet build Project.csproj
