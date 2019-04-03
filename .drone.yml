@@ -8,6 +8,7 @@ platform:
 
 steps:
 - name: build
-  image: lukaslansky/visualstudio-netwebworkload
+  image: buildtools:latest
+  pull: disable
   commands:
   - dotnet build Project.csproj
