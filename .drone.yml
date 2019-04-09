@@ -8,9 +8,9 @@ platform:
 
 steps:
 - name: build
-  image: buildtools
+  image: node:4
   pull: never
   commands:
-  - cd ..
-  - dir
+  - cd g:\
+  - npm --prefix ./ControlCenter/Content install ./ControlCenter/Content
   #- dotnet build Project/Project.csproj
