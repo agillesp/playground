@@ -11,7 +11,6 @@ steps:
   image: node:4
   pull: never
   commands:
-  - cd g:/
-  - npm install
+  - cd g:\ ; npm install
   - echo "done"
   #- dotnet build Project/Project.csproj
