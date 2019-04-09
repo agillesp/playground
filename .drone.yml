@@ -11,6 +11,5 @@ steps:
   image: node:4
   pull: never
   commands:
-  - cd g:\
-  - npm --prefix ./ControlCenter/Content install ./ControlCenter/Content
+  - npm --prefix g:/ControlCenter/Content install g:/ControlCenter/Content
   #- dotnet build Project/Project.csproj
