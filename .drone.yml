@@ -13,4 +13,5 @@ steps:
   commands:
   - cd g:\ ; npm install
   - echo "done"
+  - echo "and done"
   #- dotnet build Project/Project.csproj
